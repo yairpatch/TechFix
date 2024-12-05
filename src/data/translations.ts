@@ -11,7 +11,7 @@ export const translations: Record<string, Translation> = {
     virusRemovalDesc: 'הגנה מפני נוזקות ואבטחת המחשב שלך',
     pickupService: 'שירות איסוף והחזרה',
     pickupServiceDesc: 'שירות איסוף והחזרת המחשב עד לבית הלקוח',
-    callNow: 'התקשר עכשיו',
+    callNow: 'התקשרו עכשיו',
     available247: 'זמינים 24/7',
     findUs: 'איך להגיע אלינו',
     address: 'שדרות לכיש 56, קרית גת',
