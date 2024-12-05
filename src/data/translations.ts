@@ -3,7 +3,7 @@ import { Translation } from '../types/language';
 export const translations: Record<string, Translation> = {
   he: {
     title: 'מעבדת תיקון מחשבים',
-    subtitle: 'פתרונות מהירים ואמינים לכל בעיות המחשב שלך',
+    subtitle: 'פתרונות מהירים ואמינים לכל בעיות המחשב',
     services: 'השירותים שלנו',
     computerRepair: 'תיקון מחשבים',
     computerRepairDesc: 'תיקון חומרה ותוכנה, שדרוגי מערכת ופתרון בעיות',
