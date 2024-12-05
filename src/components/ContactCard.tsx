@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone } from 'lucide-react';
+import { Phone, MessageCircle } from 'lucide-react';
 
 interface ContactCardProps {
   callNow: string;
@@ -24,11 +24,14 @@ export const ContactCard: React.FC<ContactCardProps> = ({ callNow, available247 
           <div className="w-full border-t border-white/20 my-2"></div>
           
           <div className="flex flex-col">
-            <span className="text-lg text-blue-100 mb-1">או התקשרו ל:</span>
+            <span className="text-lg text-blue-100 mb-1">או שלחו הודעת WhatsApp:</span>
             <a 
-              href="tel:+053-4372323" 
-              className="text-2xl md:text-3xl font-bold hover:underline break-words max-w-full"
+              href="https://wa.me/972534372323" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-2xl md:text-3xl font-bold hover:underline break-words max-w-full flex items-center justify-center gap-2"
             >
+              <MessageCircle className="w-6 h-6" />
               053-4372323
             </a>
           </div>
