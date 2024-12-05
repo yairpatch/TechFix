@@ -1,0 +1,50 @@
+import { Translation } from '../types/language';
+
+export const translations: Record<string, Translation> = {
+  he: {
+    title: 'מעבדת תיקון מחשבים',
+    subtitle: 'פתרונות מהירים ואמינים לכל בעיות המחשב שלך',
+    services: 'השירותים שלנו',
+    computerRepair: 'תיקון מחשבים',
+    computerRepairDesc: 'תיקון חומרה ותוכנה, שדרוגי מערכת ופתרון בעיות',
+    virusRemoval: 'הסרת וירוסים',
+    virusRemovalDesc: 'הגנה מפני נוזקות ואבטחת המחשב שלך',
+    pickupService: 'שירות איסוף והחזרה',
+    pickupServiceDesc: 'שירות איסוף והחזרת המחשב עד לבית הלקוח',
+    callNow: 'התקשר עכשיו',
+    available247: 'זמינים 24/7',
+    findUs: 'איך להגיע אלינו',
+    address: 'שדרות לכיש 56, קרית גת',
+    direction: 'rtl',
+    expertService: 'שירות מקצועי ואמין',
+    yearsExperience: 'שנות ניסיון',
+    languageName: 'עברית',
+    createdBy: 'נוצר על ידי @Yair',
+    allRightsReserved: 'כל הזכויות שמורות',
+    metaDescription: 'מעבדת תיקון מחשבים בקרית גת. תיקון מחשבים, הסרת וירוסים, שירות עד הבית. זמינים 24/7 לכל בעיות המחשב שלך.',
+    metaKeywords: 'תיקון מחשבים, קרית גת, הסרת וירוסים, שירות מחשבים, תיקון מחשבים בבית הלקוח, תיקון לפטופ, שירות מחשבים 24/7'
+  },
+  ru: {
+    title: 'Ремонт компьютеров',
+    subtitle: 'Быстрые и надежные решения компьютерных проблем',
+    services: 'Наши услуги',
+    computerRepair: 'Ремонт ПК',
+    computerRepairDesc: 'Ремонт оборудования и ПО, обновления системы',
+    virusRemoval: 'Защита от вирусов',
+    virusRemovalDesc: 'Антивирусная защита вашего компьютера',
+    pickupService: 'Доставка',
+    pickupServiceDesc: 'Вывоз и доставка компьютера на дом',
+    callNow: 'Позвоните',
+    available247: 'Работаем 24/7',
+    findUs: 'Как нас найти',
+    address: 'Сдерот Лахиш 56, Кирьят Гат',
+    direction: 'ltr',
+    expertService: 'Профессиональный сервис',
+    yearsExperience: 'лет опыта',
+    languageName: 'Русский',
+    createdBy: 'Создано @Yair',
+    allRightsReserved: 'Все права защищены',
+    metaDescription: 'Профессиональный ремонт компьютеров в Кирьят-Гате. Ремонт ПК, удаление вирусов, обслуживание на дому. Доступны 24/7 для решения любых компьютерных проблем.',
+    metaKeywords: 'ремонт компьютеров, Кирьят-Гат, удаление вирусов, компьютерные услуги, ремонт компьютеров на дому, ремонт ноутбуков, компьютерные услуги 24/7'
+  }
+};
