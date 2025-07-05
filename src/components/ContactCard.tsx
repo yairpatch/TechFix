@@ -30,7 +30,7 @@ export const ContactCard: React.FC<ContactCardProps> = ({ callNow, available247 
           <div className="flex flex-col">
             <span className="text-lg text-blue-100 mb-1">או שלחו הודעת WhatsApp:</span>
             <a 
-              href="https://wa.me/972534372323" 
+              href="https://wa.me/972584643886" 
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl md:text-3xl font-bold hover:text-blue-100 transition-colors duration-300 break-words max-w-full flex items-center justify-center gap-2"
